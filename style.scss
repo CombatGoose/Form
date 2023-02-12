@@ -1,0 +1,91 @@
+body {
+    button {
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(94, 91, 91);
+        color: white;
+        font-size: 15px;
+    }
+    label {
+        color: rgb(112, 115, 115);
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        border-radius: 20px;
+        width: 60%;
+        height: 800px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(207, 199, 199);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p {
+            font-size: 40px;
+            font-style: italic;
+            margin-top: -400px;
+        }
+        .input-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: -170px;
+            .second-label {
+                margin-top: 40px;
+                margin-left: -10%;
+            }
+            .third-label {
+                margin-left: -8%;
+                margin-top: 40px;
+            }
+            label {
+                font-size: 20px;
+                input::placeholder {
+                    font-size: 15px;
+                }
+                input {
+                    width: 395px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 15px;
+                    margin-left: 15px;
+                    padding-left: 5px;
+                }
+            }
+        }
+        .sauce {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            label {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+            .select {
+                display: flex;
+                select {
+                    width: 350px;
+                    height: 40px;
+                    margin-left: 20px;
+                    margin-top: -5px;
+                    border: none;
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                }
+            }
+        }
+        .settings {
+            display: flex;
+            margin-top: 40px;
+            label {
+                font-size: 20px;
+                margin-bottom: 40px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
